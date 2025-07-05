@@ -1,16 +1,33 @@
-#  Next Sentence Prediction using Generative AI (IBM Project)
+# Next Sentence Prediction using Generative AI
 
-This project uses GPT-2 from Hugging Face to predict the **next sentence** based on user input, built using:
--  Hugging Face Transformers (GPT-2)
--  Streamlit (for UI)
--  Google Colab (for development)
+This is a project built for the IBM GenAI course. It uses a model called GPT-2 to guess what the next sentence might be, based on whatever text you give it. The whole thing runs on Google Colab and uses tools from Hugging Face.
 
-## Files
-- `ibm_project.ipynb` → Full working Colab notebook
-- `PROJECT_REPORT.md` → Final submission document (formatted)
-- `README.md` → This overview file
 
-##  Output Sample
-Input: I went to the park to  
-Prediction: play basketball
 
+## What This Project Does
+
+- You type a sentence (for example: I went to the park to)
+- The AI reads it and tries to guess what comes next
+- It shows the complete sentence as output
+
+
+## Tools Used
+
+| Tool           | What it's used for                         |
+|----------------|--------------------------------------------|
+| transformers   | To load and use the GPT-2 model            |
+| torch          | For running the model in the background    |
+| Google Colab   | So you can run everything in the cloud     |
+
+
+
+## Files Included
+
+- ibm_project.ipynb – The main notebook where all the code is written
+- README.md – This file, explaining the project
+
+
+## Example
+
+You type: I went to the park to  
+The AI replies: play basketball with my friends.
